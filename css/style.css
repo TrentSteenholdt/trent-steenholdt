@@ -6,7 +6,15 @@
     --dark: #12141D;
 }
 
-.ltrText {unicode-bidi: bidi-override; direction: rtl; text-align: left;}
+.ltrText {
+    unicode-bidi: bidi-override; 
+    direction: rtl; 
+    text-align: left;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
 .back-to-top {
     position: fixed;
     display: none;
