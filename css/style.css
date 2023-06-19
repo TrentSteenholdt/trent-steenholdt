@@ -6,6 +6,7 @@
     --dark: #12141D;
 }
 
+.ltrText {unicode-bidi: bidi-override; direction: rtl; text-align: left;}
 .back-to-top {
     position: fixed;
     display: none;
